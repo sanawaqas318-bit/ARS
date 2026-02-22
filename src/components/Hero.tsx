@@ -1,11 +1,10 @@
-
 "use client";
 
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   const profileImg = PlaceHolderImages.find((img) => img.id === "profile");
@@ -34,12 +33,6 @@ export function Hero() {
                   Get Started <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <button className="flex items-center gap-3 font-bold hover:text-primary transition-colors group">
-                <div className="w-14 h-14 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
-                  <Play className="fill-current h-5 w-5 ml-1" />
-                </div>
-                Watch Intro
-              </button>
             </div>
             
             {/* Experience Badge */}
