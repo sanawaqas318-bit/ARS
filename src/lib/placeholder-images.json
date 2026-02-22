@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Professional profile picture of Arham",
+      "imageUrl": "https://images.unsplash.com/photo-1730458001105-2c363a8c9c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwcm9maWxlfGVufDB8fHx8MTc3MTc1ODI5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional developer profile"
+    },
+    {
+      "id": "project-restaurant",
+      "description": "Modern restaurant website mockup",
+      "imageUrl": "https://images.unsplash.com/photo-1745211212207-54b6eadd26c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZXN0YXVyYW50JTIwd2Vic2l0ZXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant website"
+    },
+    {
+      "id": "project-course",
+      "description": "Educational course selling platform mockup",
+      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZHVjYXRpb24lMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education platform"
+    },
+    {
+      "id": "project-decor",
+      "description": "Minimalist home decor store mockup",
+      "imageUrl": "https://images.unsplash.com/photo-1565474087406-2d7e5b99b350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW50ZXJpb3IlMjBkZXNpZ24lMjBzdG9yZXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interior design store"
+    }
+  ]
 }
