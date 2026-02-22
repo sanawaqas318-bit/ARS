@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -11,7 +12,7 @@ export function Hero() {
 
   return (
     <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-background">
-      {/* Decorative Blobs - matching the reference style */}
+      {/* Decorative Blobs */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[120px] -z-10"></div>
       <div className="absolute bottom-1/4 left-0 w-72 h-72 bg-primary/10 rounded-full blur-[100px] -z-10"></div>
 
@@ -52,11 +53,11 @@ export function Hero() {
           
           <div className="flex-1 relative">
             <div className="relative z-10 w-full max-w-lg mx-auto aspect-square">
-              {/* Background Shapes like in reference */}
+              {/* Background Shapes */}
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary rounded-full -z-10 opacity-50 blur-2xl"></div>
               <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-primary/30 rounded-full -z-10 animate-pulse"></div>
               
-              <div className="relative w-full h-full rounded-[40px] overflow-hidden border-[12px] border-card shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-700">
+              <div className="relative w-full h-full rounded-full overflow-hidden border-[12px] border-card shadow-2xl transition-all duration-700 hover:scale-105">
                 {profileImg && (
                   <Image 
                     src={profileImg.imageUrl} 

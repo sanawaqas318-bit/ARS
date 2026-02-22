@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "profile",
-      "description": "Professional profile picture of Arham",
-      "imageUrl": "https://images.unsplash.com/photo-1730458001105-2c363a8c9c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwcm9maWxlfGVufDB8fHx8MTc3MTc1ODI5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional developer profile"
+      "description": "Anime style profile character",
+      "imageUrl": "https://storage.googleapis.com/test-media-genai-prod/images/0517781b-5688-467d-92a0-da4c49d8a1f6.png",
+      "imageHint": "anime boy character"
     },
     {
       "id": "project-restaurant",
