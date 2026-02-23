@@ -1,6 +1,7 @@
+
 "use client";
 
-import Image from "react-image";
+import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export function About() {
@@ -13,10 +14,11 @@ export function About() {
           <div className="flex-1 relative order-2 lg:order-1">
              <div className="relative w-full max-w-md mx-auto aspect-square rounded-[3rem] overflow-hidden border-8 border-background shadow-2xl">
                 {profileImg && (
-                  <img 
+                  <Image 
                     src={profileImg.imageUrl} 
                     alt="Arham" 
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 )}
               </div>
