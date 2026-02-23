@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "profile",
-      "description": "Anime style profile character with glasses, updated version",
-      "imageUrl": "https://storage.googleapis.com/test-media-genai-prod/images/6df104d4-5be4-4ec5-926c-9418b7f83049.png",
-      "imageHint": "anime boy glasses"
+      "description": "Professional profile photo",
+      "imageUrl": "https://i.postimg.cc/x1n6p3RB/Whats-App-Image-2026-02-21-at-2-19-41-PM.jpg",
+      "imageHint": "professional man"
     },
     {
       "id": "project-restaurant",
@@ -15,7 +15,7 @@
     {
       "id": "project-course",
       "description": "Educational course selling platform mockup",
-      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZHVjYXRpb24lMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHxw7fHxlZHVjYXRpb24lMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "education platform"
     },
     {
