@@ -1,30 +1,29 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 12%;
+    --background: 0 0% 5%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 15%;
+    --card: 0 0% 8%;
     --card-foreground: 0 0% 98%;
-    --popover: 0 0% 15%;
+    --popover: 0 0% 8%;
     --popover-foreground: 0 0% 98%;
     --primary: 47 100% 50%;
     --primary-foreground: 0 0% 0%;
     --secondary: 47 100% 30%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 0 0% 25%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
     --accent: 47 100% 50%;
     --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
     --ring: 47 100% 50%;
-    --radius: 1.5rem;
+    --radius: 2rem;
   }
 }
 
@@ -46,11 +45,40 @@
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(2deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
 }
 
 .animate-float {
-  animation: float 4s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
+
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, #ffffff10 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.text-stroke-primary {
+  -webkit-text-stroke: 1px hsl(var(--primary));
+  color: transparent;
+}
+
+@keyframes scroll-down {
+  0% { transform: translateY(0); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(10px); opacity: 0; }
+}
+
+.animate-scroll {
+  animation: scroll-down 2s ease-in-out infinite;
 }
