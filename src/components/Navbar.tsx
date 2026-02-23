@@ -23,7 +23,7 @@ export function Navbar() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'h-20 bg-background/80 backdrop-blur-xl border-b border-white/5 shadow-2xl' : 'h-24 bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'h-20 bg-background/80 backdrop-blur-xl border-b border-white/5' : 'h-24 bg-transparent'}`}>
       <nav className="container mx-auto px-6 h-full flex items-center justify-between">
         <Link href="/" className="font-headline text-2xl font-black tracking-tighter group">
           PANTHA<span className="text-primary group-hover:animate-pulse">.</span>
@@ -34,7 +34,7 @@ export function Navbar() {
             <Link 
               key={link.name}
               href={link.href} 
-              className="text-xs font-black uppercase tracking-widest text-muted-foreground hover:text-primary transition-all relative group"
+              className="text-xs font-black uppercase tracking-widest text-white/60 hover:text-primary transition-all relative group"
             >
               {link.name}
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all group-hover:w-full"></span>
@@ -42,7 +42,7 @@ export function Navbar() {
           ))}
         </div>
 
-        <a href="#contact" className="h-12 px-6 bg-white/5 hover:bg-primary hover:text-black border border-white/10 rounded-xl flex items-center justify-center text-xs font-black uppercase tracking-widest transition-all">
+        <a href="#contact" className="h-12 px-6 bg-primary text-black rounded-lg flex items-center justify-center text-xs font-black uppercase tracking-widest transition-all hover:bg-primary/90">
           Hire Me
         </a>
       </nav>
