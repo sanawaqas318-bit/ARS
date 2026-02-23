@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from "react";
@@ -22,7 +21,7 @@ export function Navbar() {
             <Link 
               key={link.name}
               href={link.href} 
-              className={`text-sm font-bold transition-colors hover:text-primary ${
+              className={`text-sm font-bold uppercase tracking-widest transition-colors hover:text-primary ${
                 link.name === "Home" ? "text-primary border-b-2 border-primary pb-1" : "text-muted-foreground"
               }`}
             >
