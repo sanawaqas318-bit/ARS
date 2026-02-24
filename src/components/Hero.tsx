@@ -53,7 +53,7 @@ export function Hero() {
           color: "#822DFA",
           distance: 150,
           enable: true,
-          opacity: 0.8,
+          opacity: 0.95,
           width: 2,
         },
         move: {
@@ -74,7 +74,7 @@ export function Hero() {
           value: 80,
         },
         opacity: {
-          value: 0.8,
+          value: 0.95,
         },
         shape: {
           type: "circle",
