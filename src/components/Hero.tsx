@@ -71,7 +71,7 @@ export function Hero() {
             enable: true,
             area: 800,
           },
-          value: 80,
+          value: 150,
         },
         opacity: {
           value: 0.95,
