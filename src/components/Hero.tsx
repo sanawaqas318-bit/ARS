@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useEffect, useMemo, useState } from "react";
@@ -48,10 +47,10 @@ export function Hero() {
       },
       particles: {
         color: {
-          value: "#4B00B1",
+          value: "#822DFA",
         },
         links: {
-          color: "#4B00B1",
+          color: "#822DFA",
           distance: 150,
           enable: true,
           opacity: 0.4,
