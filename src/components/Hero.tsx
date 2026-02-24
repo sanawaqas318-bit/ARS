@@ -53,8 +53,8 @@ export function Hero() {
           color: "#822DFA",
           distance: 150,
           enable: true,
-          opacity: 0.4,
-          width: 1,
+          opacity: 0.8,
+          width: 2,
         },
         move: {
           direction: "none",
@@ -74,13 +74,13 @@ export function Hero() {
           value: 80,
         },
         opacity: {
-          value: 0.5,
+          value: 0.8,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 2, max: 5 },
         },
       },
       detectRetina: true,
