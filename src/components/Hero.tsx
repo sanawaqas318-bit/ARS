@@ -48,10 +48,10 @@ export function Hero() {
       },
       particles: {
         color: {
-          value: "#6405F2",
+          value: "#4B00B1",
         },
         links: {
-          color: "#6405F2",
+          color: "#4B00B1",
           distance: 150,
           enable: true,
           opacity: 0.4,
