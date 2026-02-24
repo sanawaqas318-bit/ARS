@@ -1,4 +1,3 @@
-
 "use client";
 
 import { CheckCircle2 } from "lucide-react";
@@ -14,26 +13,27 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 bg-background">
+    <section id="skills" className="py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Core Strengths</h2>
-          <div className="w-20 h-1.5 bg-primary mx-auto rounded-full"></div>
+          <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">Core Strengths</span>
+          <h2 className="font-headline text-4xl md:text-5xl font-black text-foreground">Skills & Expertise</h2>
+          <div className="w-20 h-1.5 bg-primary mx-auto rounded-full mt-4"></div>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {skills.map((skill, index) => (
             <div 
               key={index} 
-              className="bg-white p-6 rounded-2xl border-2 border-transparent hover:border-primary transition-all duration-300 group shadow-sm hover:shadow-xl"
+              className="bg-background p-8 rounded-[2rem] border-2 border-transparent hover:border-primary transition-all duration-300 group shadow-lg hover:shadow-2xl"
             >
-              <div className="flex items-center gap-4 mb-3">
-                <div className="p-2 bg-primary/20 rounded-lg text-secondary group-hover:bg-primary group-hover:text-foreground transition-colors">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-primary/10 rounded-2xl text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <CheckCircle2 className="h-6 w-6" />
                 </div>
-                <h3 className="font-headline font-bold text-lg">{skill.title}</h3>
+                <h3 className="font-headline font-black text-xl text-foreground">{skill.title}</h3>
               </div>
-              <p className="text-muted-foreground leading-relaxed">{skill.desc}</p>
+              <p className="text-foreground/60 leading-relaxed font-medium">{skill.desc}</p>
             </div>
           ))}
         </div>
