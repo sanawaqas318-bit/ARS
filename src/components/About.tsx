@@ -11,7 +11,7 @@ export function About() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-24">
           <div className="flex-1 relative order-2 lg:order-1">
-             <div className="relative w-full max-w-md mx-auto aspect-square rounded-full overflow-hidden border-8 border-muted shadow-2xl">
+             <div className="relative w-full max-w-md mx-auto aspect-square rounded-[2.5rem] overflow-hidden border-8 border-muted shadow-2xl">
                 {profileImg && (
                   <Image 
                     src={profileImg.imageUrl} 
