@@ -7,22 +7,22 @@
       "imageHint": "professional man"
     },
     {
-      "id": "project-restaurant",
-      "description": "Modern restaurant website mockup",
-      "imageUrl": "https://images.unsplash.com/photo-1745211212207-54b6eadd26c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHh0fHxyZXN0YXVyYW50JTIwd2Vic2l0ZXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "restaurant website"
+      "id": "project-as",
+      "description": "Expense Noting Website",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHx8ZXhwZW5zZSUyMHRyYWNrZXJ8ZW58MHx8fHwxNzcxNzU4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "expense tracker"
     },
     {
-      "id": "project-course",
-      "description": "Educational course selling platform mockup",
-      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHxw7fHxlZHVjYXRpb24lMjBwbGF0Zm9ybXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "education platform"
+      "id": "project-ns",
+      "description": "Fashion Website",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHx8ZmFzaGlvbiUyMHN0b3JlfGVufDB8fHx8MTc3MTc1ODI5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion store"
     },
     {
-      "id": "project-decor",
-      "description": "Minimalist home decor store mockup",
-      "imageUrl": "https://images.unsplash.com/photo-1565474087406-2d7e5b99b350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW50ZXJpb3IlMjBkZXNpZ24lMjBzdG9yZXxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "interior design store"
+      "id": "project-ex",
+      "description": "Exam Center Website",
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHx8ZXhhbSUyMGNlbnRlcnxlbnwwfHx8fDE3NzE3NTgyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "exam center"
     }
   ]
 }
