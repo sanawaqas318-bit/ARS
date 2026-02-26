@@ -27,4 +27,4 @@ git push -u origin main
 - Interactive landing page with particle background.
 - Responsive design for mobile and desktop.
 - Showcase section for projects.
-- Clean, modern theme using Purple (#822DFA) and White.
+- Clean, modern theme using Purple (#822DFA) and White.# ARS
